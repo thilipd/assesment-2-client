@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 98vh;
+}
+
+.navLink{
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.navLink:hover{
+  text-decoration: underline;
+}
+
+.lableContainer{
+  text-align: left;
+}
+
+.inputContainer input{
+  width: 300px;
+  border: 1px solid #b1b1b1;
+  height: 40px;
+  border-radius: 2px;
+  padding-left: 10px;
+}
+
+ReactChipInput{
+  border: 1px solid #b1b1b1;
+  min-height: 40px;
+  padding-left: 10px;
+}
+
+.paper{
+  padding: 40px 60px !important;
+ 
+}
+
+.movieContainer{
+  gap:40px;
+  padding-top: 60px;
+ 
+}
+
